@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+:root {
+    --body-bg: #d0f4ea;
+    --btn-dim: 82px;
+    --elong-width: 164px;
+    --btn-bg: #829399;
+    --btn-hover: #b1cc74;
+    --calc-bg: #545f66;
+    --calc-disp-bg: #fdfcdc;
+    --calc-text: #f07167;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: var(--body-bg);
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator {
+    background-color: var(--calc-bg);
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    width: var(--btn-dim);
+    height: var(--btn-dim);
+    background-color: var(--btn-bg);
+    border: 2px solid var(--calc-bg);
+    padding: auto;
+    color: white;
+    font-size: 28px;
+    transition: background-color 0.1s linear;
+}
+
+.btn-elong {
+    width: var(--elong-width);
+}
+
+.btn:hover {
+    background-color: var(--btn-hover);
+    cursor: pointer;
+}
+
+#calc-display {
+    width: 99.5%;
+    height: 100px;
+    margin-bottom: 3px;
+    margin-top: 1px;
+    background-color: var(--calc-disp-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#calc-text-top {
+    background-color: var(--calc-disp-bg);
+    color: var(--calc-text);
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#calc-text-bot {
+    background-color: var(--calc-disp-bg);
+    color: var(--calc-text);
+    margin: 5px;
+    font-size: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#subtext {
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
