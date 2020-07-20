@@ -18,6 +18,14 @@
     font-family: 'Rajdhani', sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative
+}
+
 #app {
     width: 100%;
     height: 100vh;
