@@ -15,6 +15,7 @@
     padding: 0;
     margin: 0;
     background-color: var(--body-bg);
+    font-family: 'Rajdhani', sans-serif;
 }
 
 #app {
@@ -28,7 +29,7 @@
 
 #calculator {
     background-color: var(--calc-bg);
-    padding: 3px;
+    padding: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,11 +39,11 @@
     width: var(--btn-dim);
     height: var(--btn-dim);
     background-color: var(--btn-bg);
-    border: 2px solid var(--calc-bg);
+    border: 1px solid var(--calc-bg);
+    outline: none;
     padding: auto;
     color: white;
-    font-size: 28px;
-    transition: background-color 0.1s linear;
+    font-size: 34px;
 }
 
 .btn-elong {
@@ -57,7 +58,7 @@
 #calc-display {
     width: 99.5%;
     height: 100px;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
     margin-top: 1px;
     background-color: var(--calc-disp-bg);
     display: flex;
@@ -71,7 +72,6 @@
     color: var(--calc-text);
     margin: 5px;
     font-size: 20px;
-    font-family: 'Rajdhani', sans-serif;
 }
 
 #calc-text-bot {
@@ -79,11 +79,9 @@
     color: var(--calc-text);
     margin: 5px;
     font-size: 40px;
-    font-family: 'Rajdhani', sans-serif;
 }
 
 #subtext {
-    font-family: 'Rajdhani', sans-serif;
     margin-top: 10px;
     font-size: 20px;
 }
