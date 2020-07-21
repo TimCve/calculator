@@ -96,11 +96,11 @@ body {
 
 @media(max-width: 600px) {
     .btn {
-        height: 60px;
-        width: 60px;
+        height: 70px;
+        width: 70px;
     }
 
     .btn-elong {
-        width: 120px;
+        width: 140px;
     }
 }
